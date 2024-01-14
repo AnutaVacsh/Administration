@@ -1,8 +1,10 @@
 Installing
 Для начала работы клонируйте себе проект
 git clone https://github.com/AnutaVacsh/Administration
+
 Перейдите в нужную директорию
-cd AISDocker/
+cd Administration
+
 Для развёртывания у себя приложения воспользуйтесь командой:
 docker compose up
 
