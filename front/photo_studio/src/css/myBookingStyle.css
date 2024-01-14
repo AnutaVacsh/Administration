@@ -1,0 +1,39 @@
+article{
+	font-size: 28px;
+	width: 1700px;
+	margin: 0px auto;
+}
+h1{
+	margin: 70px auto;
+	text-align: center;
+	font-weight: 200;
+	font-size: 60px;
+}
+table{
+	width: 1700px;
+	margin: 0 auto;
+	font-weight: 200;
+}
+td, th{
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding: 0px;
+    height: 80px;
+}
+td{
+    height: 180px;
+}
+table a{
+	width: 234px;
+	padding: 10px 0px;
+	text-align: center;
+	color: #008BFF;
+	text-decoration-line: none;
+
+	border: 1px solid #008BFF;
+	border-radius: 10px;
+	font-size: 24px;
+}
+table a:hover{
+	background-color: #E6F4FF;
+}

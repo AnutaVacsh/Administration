@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'Montserrat-Regular'; 
+	src: url(../fonts/Montserrat-Regular.ttf); 
+}
+@font-face {
+	font-family: 'Montserrat-SemiBold'; 
+	src: url(../fonts/Montserrat-SemiBold.ttf); 
+}
+html{
+	font-size: 32px;
+	font-family: Montserrat-Regular;
+}
+header{
+	height: 100px;
+	background-color: #707070;
+}
+article{
+	margin: 0px auto;
+	width: 1700px;
+}
+header .content{
+	height: 100px;
+	width: 1700px;
+	background-color: #707070;
+
+	display: flex;
+	margin: 0px auto;
+	justify-content: flex-end;
+	align-items: center;
+}
+header .content a, header .content p{
+	color: #FFFFFF;
+	font-weight: 500;
+	text-decoration: none;
+	margin-left: 40px;
+}
+header .content a:hover{
+	text-decoration-line: underline;
+}
+.thenksButton{
+	display: block;
+	width: 339px;
+	text-align: center;
+	padding: 10px;
+	margin: 120px auto;
+	text-decoration-line: none;
+	background: #707070;
+	border-radius: 5px;
+	color: #FFFFFF;
+}

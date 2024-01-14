@@ -1,0 +1,37 @@
+article{
+	font-size: 32px;
+	width: 1700px;
+	margin: 0px auto;
+}
+h1{
+	font-size: 60px;
+	font-weight: 200;
+	text-align: center;
+	padding: 60px;
+	border-bottom: 1px solid #000000;
+}
+article .element{
+	width: 1457px;
+	height: 581px;
+	display: flex;
+	margin: 30px auto;
+	justify-content: space-between;
+    align-items: center;
+}
+article .inform{
+	text-align: center;
+}
+article .inform h2{
+	font-size: 32px;
+	font-family: Montserrat-SemiBold;
+}
+.inform p{
+	font-size: 32px;
+	height: auto;
+}
+article .inform p{
+	width: 839px;
+}
+article .inform p:last-child{
+	width: 450px;
+}

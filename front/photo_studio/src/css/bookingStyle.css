@@ -1,0 +1,244 @@
+article{
+	font-size: 32px;
+	width: 1700px;
+	margin: 0px auto;
+	height: 3500px;
+}
+h1{
+	font-size: 60px;
+	font-weight: 200;
+	text-align: center;
+	padding: 60px;
+	border-bottom: 1px solid #000000;
+}
+h2{
+	font-size: 48px;
+	font-weight: 200;
+}
+.elementsHall, .elementLight, .elementBack{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.elHall, .elLight, .elBack{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    margin-right: 55px;
+}
+.elBack{
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: flex-start;
+    width: 456px;
+}
+.elHall p, .elLight p, .elBack p{
+	font-family: Montserrat-SemiBold;
+}
+.elBack p{
+	margin-top: 0px;
+}
+.time{
+	margin-top: 120px;
+}
+.free{
+	display: flex;
+	align-items: center;
+}
+.free p{
+	margin-right: 50px;
+	font-family: Montserrat-Regular;
+}
+.free div{
+	width: 100px;
+	height: 50px;
+	margin-right: 20px;
+	border: 1px solid #000000;
+}
+.free div:nth-child(1){background: #FFFFFF}
+.free div:nth-child(3){background: #BCE0FC}
+
+.timetable{
+	margin-top: 60px;
+	
+}
+.date{
+	display: flex;
+	align-items: center;
+}
+.date .img1{
+	width: 50px;
+	height: 50px;
+	background-image: url("../img/icons/arrowNormLeft.png");
+}
+.date .img2{
+	width: 50px;
+	height: 50px;
+	background-image: url("../img/icons/arrowNormRight.png");
+}
+.date .img1:hover{
+	background-image: url("../img/icons/arrowOnLeft.png");
+}
+.date .img2:hover{
+	background-image: url("../img/icons/arrowOnRight.png");
+}
+.date p{
+	margin-left: 20px;
+	color: #008BFF;
+	font-family: Montserrat-Regular;
+}
+.timetable .ul{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;	
+	width: 1350px;
+	height: 80p;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	margin: 30px auto;
+}
+.timetable .ul p{
+    font-family: Montserrat-Regular;
+}
+.triple{
+	display: flex;
+	justify-content: space-between;
+	height: 1050px;
+}
+.triple p{
+	font-family: Montserrat-Regular;
+	font-size: 28px;
+	margin: 0px;
+}
+.triple .timeB {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.timetable .table{
+	width: 1391px;
+	height: 1100px;
+}
+.table{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.table .f{
+	width: 185px;
+	height: 65px;
+	border: 1px solid #008BFF;
+	background-color: #FFFFFF;
+	margin-right: 12px;
+}
+.table .f:hover{
+	background: #FFDEE9;
+}
+.table .b{
+	width: 185px;
+	height: 65px;
+	border: 1px solid #008BFF;
+	background: #BCE0FC;
+	margin-right: 16px;
+}
+article>.price{
+	width: 1400px;
+	height: 102px;
+	border: 1px solid #C2C2C2;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+
+	position: fixed;
+	bottom: 65px;
+	left:50%;
+	margin-left:-700px;
+
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.price .inTotal{
+	margin-left: 15px;
+}
+.price .inTotal p:nth-child(1){
+	font-family: Montserrat-Regular;
+}
+.price .inTotal p{
+	margin: 0px;
+}
+.price div:nth-child(2){
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
+	font-size: 40px;
+}
+.price div:nth-child(2) p{
+	font-family: Montserrat-Regular;
+}
+.price a{
+	width: 340px;
+	padding: 10px;
+	background: #008BFF;
+	border-radius: 5px;
+	margin-left: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration-line: none;
+}
+.elHall img, .elLight img, .elBack img{
+	height: 200px;
+}
+.elHall.active p, .elLight.active p, .elBack.active p{
+	text-align: center;
+	color: #008BFF;
+}
+.elBack select{
+	width: 200px;
+	height: 40px;
+	font-size: 24px;
+	border-radius: 10px;
+}
+.elBack div p{
+	text-align: center;
+}
+.f.active{
+	background: #FF5F92;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+    text-align: center;
+}
+.f.active:hover{
+	background: #FF5F92;
+	border: 1px solid #000000;
+}
+div.ifGuest{
+	text-align: center;
+	width: 1400px;
+	font-size: 40px;
+}
+
+.price3{
+	font-size: 48px;
+}
+.f input{
+	width: 700px;
+	height: 70px;
+	font-size: 28px;
+	border: 1px solid #707070;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.f .cvv,.f .yy{
+	width: 340px;
+}
+.f .cardNumber{
+	display: flex;
+    justify-content: space-between;
+}
+.buttonPay a{
+	display: block;
+	 padding: 10px;
+	 width: 200px;
+	 text-align: center;
+}

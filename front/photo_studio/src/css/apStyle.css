@@ -1,0 +1,257 @@
+article{
+	font-size: 32px;
+	width: 1700px;
+	margin: 0px auto;
+}
+nav{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px auto;
+
+	width: 1480px;
+	height: 90px;
+	margin-top: 80px;
+	border-bottom: 1px solid #000000;
+}
+nav a{
+	text-decoration-line: none;
+	color: #000000;
+    margin-right: 50px;
+}
+nav a:hover{
+	color: #008BFF;
+}
+nav a.active{
+	color: #008BFF;
+	font-family: Montserrat-SemiBold;
+}
+.ap{ 
+	width: 1480px;
+    margin: 70px auto;
+}
+.ap > div:nth-child(1){
+	display: flex;
+	align-items: center;
+	width: 400px;
+	margin-left: 55px;
+    justify-content: space-between;
+}
+.apBack > div:nth-child(1){
+	width: 500px;
+}
+.ap h2{
+	font-size: 36px;
+	font-family: Montserrat-SemiBold;
+}
+.ap a{
+	width: 234px;
+	padding: 10px 0px;
+	text-align: center;
+	color: #008BFF;
+	text-decoration-line: none;
+
+	border: 1px solid #008BFF;
+	border-radius: 10px;
+	font-size: 24px;
+}
+.ap a:hover{
+	background-color: #E6F4FF;
+}
+.listBook{
+	margin-top: 50px;
+}
+.elAP{
+	width: 1480px;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+	
+}
+.elAP img{
+	width: 200px;
+}
+.elAP .buttons{
+	display: flex;
+	height: 127px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.elAP .title{
+	font-family: Montserrat-SemiBold;
+}
+.blue{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0, 96, 175, 0.39);
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.blue.active{
+	display: block;
+}
+.add{
+	position: absolute;
+	width: 1476px;
+	height: auto;
+	left: 50%;
+	margin-left: -738px;
+	top: 50%;
+	margin-top: -381px;
+	background: #FFFFFF;
+	z-index: 2;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	display: none;
+}
+.add.active{
+	display: block;
+}
+.add h2{
+	font-size: 52px;
+	text-align: center;
+	margin: 40px;
+	font-weight: 300;
+	font-family: Montserrat-Regular;
+}
+.add .form{
+	width: 1244px;
+	margin: 70px auto;
+}
+.add .double{
+	width: 1200px;
+	display: flex;
+    justify-content: space-between;
+}
+.add .number, .add .title, .add .price, .add .price2, .add .description, .add .color{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+}
+.add .description{
+	width: 1200px;
+}
+.add .color{
+	margin-top: 80px;
+	width: 1200px;
+	justify-content:flex-start;
+}
+
+.deleteColor, .addColor{
+	display: flex;
+    height: 55px;
+    justify-content: space-between;
+}
+.add .color > div{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	width: 590px;
+	height: 200px;
+}
+.add .color p{
+	margin-right: 215px;
+}
+.color input{
+	width: 250px;
+	height: 50px;
+	background: #FFFFFF;
+	border: 1px solid #008BFF;
+	border-radius: 10px;
+	font-size: 24px;
+}
+.color a{
+	width: 250px;
+	padding: 10px 0px;
+	text-align: center;
+	color: #008BFF;
+	text-decoration-line: none;
+
+	border: 1px solid #008BFF;
+	border-radius: 10px;
+	font-size: 24px;
+}
+.color select{
+	width: 250px;
+	padding: 10px 0px;
+	border: 1px solid #008BFF;
+	border-radius: 10px;
+	font-size: 24px;
+}
+.add .addImg{
+	display: flex;
+	align-items: center;    
+	flex-direction: column;
+}
+form input[type= "text"], input[type= "number"]{
+	width: 400px;
+	height: 50px;
+
+	background: #FFFFFF;
+	border: 1px solid #008BFF;
+	border-radius: 10px;
+	font-size: 24px;
+}
+input[type= "file"]{
+	/* width: 200px; */
+	font-size: 24px;
+}
+textarea{
+	width: 899px;
+	height: 142px;
+	background: #FFFFFF;
+	border: 1px solid #008BFF;
+	border-radius: 10px;
+	font-size: 24px;
+}
+.add .buttons{
+	display: flex;
+	width: 631px;
+	margin: 100px auto 20px;
+	justify-content: space-between;
+}
+.add .buttons a{
+	width: 300px;
+	background: #008BFF;
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+.add .buttons a:hover{
+	background-color: #007EE7;
+}
+.left input{
+	width: 400px;
+	height: 50px;
+	font-size: 28px;
+	border: 1px solid #007EE7;
+	border-radius: 10px;
+}
+.tableHall .price{
+	width: 500px;
+    text-align: center;
+}
+.listBook{
+	width: 2000px;
+	margin: 50px auto;
+	font-weight: 200;
+}
+.listBook .bookButtons{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	width: 200px;
+}
+.colorState.b{color: #008BFF;}
+.colorState.p{color: #FF5F92;}
+.colorState.r{color: #FF0000;}
+
+ul{
+	padding: 0px;
+}
+td{
+	padding-left: 30px;
+}
