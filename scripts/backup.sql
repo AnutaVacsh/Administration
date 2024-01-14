@@ -20,15 +20,6 @@ SET row_security = on;
 
 SET SESSION AUTHORIZATION 'postgres';
 
-DROP DATABASE IF EXISTS "Photo_Studio";
---
--- TOC entry 4867 (class 1262 OID 17093)
--- Name: Photo_Studio; Type: DATABASE; Schema: -; Owner: postgres
---
-
-CREATE DATABASE "Photo_Studio" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'Russian_Russia.1251';
-
-
 \connect "Photo_Studio"
 
 SET statement_timeout = 0;
