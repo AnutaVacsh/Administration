@@ -1,26 +1,29 @@
-Installing
+##Installing
 Для начала работы клонируйте себе проект
+```shell
 git clone https://github.com/AnutaVacsh/Administration
-
+```
 Перейдите в нужную директорию
+```shell
 cd Administration
-
+```
 Для развёртывания у себя приложения воспользуйтесь командой:
+```shell
 docker compose up
+```
+##Services
++Spring
++PostgreSQL
++React
 
-Services
-Spring
-PostgreSQL
-React
-
-Backend
+##Backend
 localhost:8080
-Database
+##Database
 localhost:5432
-Frontend
+##Frontend
 localhost:3000
 
-Usage
+##Usage
 действия от лица гостя:
 Войти http://localhost:3000/login
 Зарегистрироваться http://localhost:3000/registration
